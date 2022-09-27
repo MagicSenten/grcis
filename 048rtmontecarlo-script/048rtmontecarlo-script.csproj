@@ -264,12 +264,6 @@
     <Compile Include="..\common\WorkloadDistribution.cs">
       <Link>WorkloadDistribution.cs</Link>
     </Compile>
-    <Compile Include="..\newmodules\JanMitka-ShatteredGlass\ShatteredGlass.cs">
-      <Link>ShatteredGlass.cs</Link>
-    </Compile>
-    <Compile Include="..\newmodules\JanMitka-ShatteredGlass\vyhul.cs">
-      <Link>vyhul.cs</Link>
-    </Compile>
     <Compile Include="AdditionalViewsForm.cs">
       <SubType>Form</SubType>
     </Compile>
