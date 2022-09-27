@@ -290,6 +290,8 @@
     <Compile Include="RenderClientsForm.Designer.cs">
       <DependentUpon>RenderClientsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Voronoi.cs" />
+    <Compile Include="VoronoiElements.cs" />
     <EmbeddedResource Include="AdditionalViewsForm.resx">
       <DependentUpon>AdditionalViewsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
