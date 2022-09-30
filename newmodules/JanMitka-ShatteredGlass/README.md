@@ -1,7 +1,7 @@
 # Extension: ShatteredGlass/ShatteredTexture
 ### Autor: Jan Mitka
-### Category: RT extension
-
+### Category: RT extension - shattered texture
+### Source file: JanMitkaShatteredGlass.cs
 Deterministické generování popraskáné textury. Chtěl jsem dosáhnout simulace popraskání skla,bohužel se mi nepodařilo nastavit materiál TriangleMesh na sklo. Tudíž výsledná verze je zobrazena na žluté krychli. 
 
 Jak jsem docílil determinismu - Bod úderu (přesněji x  a y souřadnice) je seed pro dvě random funkce, které generují random doubly - r1 a r2. Ty poté považuji za bod [r1, r2] ve čtverci 1x1. Nasbírám takto 40 bodů (přičemž se snažím udělat větší zahuštění těchto random bodů okolo bodu úderu, aby roztříštění vypadalo co nejvěrohodněji), podle kterých vypočítám Voronoiovy křivky. Ty poté vnáším pomocí TraingleMesh do 3D scény, přesněji řečeno do krychle. 
@@ -24,3 +24,12 @@ foreach (var vorLine in tryMe.ge)
   root.InsertChild(triMesh, Matrix4d.CreateTranslation(0.0, 0.0, 0.0));
 }
 ```
+
+
+
+
+## Images, videos
+
+Videosequence:
+
+[YouTube video 640x360](https://youtu.be/MVcgKGwKKmw)
