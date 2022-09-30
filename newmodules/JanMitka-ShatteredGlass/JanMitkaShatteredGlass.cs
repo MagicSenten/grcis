@@ -36,9 +36,9 @@ pm.Kt = 0.9;
 
 /// <summary>
 /// Summary description for ShatteredGlass class
-/// General idea - generate random points in 2D space (for now 90, could be variable depending on dimensions of glass
+/// General idea - generate random points in 2D space (for now 40, could be variable depending on dimensions of glass
 /// and "strenght" (which could have been how you hold the mouse, but thats to much time consuming for rn)). Three different areas of points:
-/// first - closest to the point of hit, should be 45 points, second - midrange of the hit, should be 30 points, third - the rest of the glass to
+/// first - closest to the point of hit, should be 20 points, second - midrange of the hit, should be 10 points, third - the rest of the glass to
 /// make gradual pattern. After points being generated, we use these points as anchors for Voronoi diagram, which in my opinion pretty much resembles
 /// how glass could be shattered
 /// </summary>
