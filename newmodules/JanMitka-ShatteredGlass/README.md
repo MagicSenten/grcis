@@ -22,6 +22,6 @@ foreach (var vorLine in tryMe.ge)
   //Generate3DLine je pomocná funkce, která kreslí jendotlivé hrany, není součástí třídy
   triMesh = new TriangleMesh(Generate3DLine((float)vorLine.x1, (float)vorLine.x2, (float)vorLine.y1, (float)vorLine.y2));
   root.InsertChild(triMesh, Matrix4d.CreateTranslation(0.0, 0.0, 0.0));
-  triMesh.SetAttribute(PropertyName.MATERIAL, pm);
+  //triMesh.SetAttribute(PropertyName.MATERIAL, pm);
 }
 ```
