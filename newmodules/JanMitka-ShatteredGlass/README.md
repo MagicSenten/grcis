@@ -25,11 +25,11 @@ foreach (var vorLine in tryMe.ge)
 }
 ```
 
-
+### Sample animation script: JanMitkaShatteredGlassAnimation.cs
 
 
 ## Images, videos
 
 Videosequence:
 
-[YouTube video 640x360](https://youtu.be/MVcgKGwKKmw)
+[YouTube video 640x480](https://youtu.be/MVcgKGwKKmw)
